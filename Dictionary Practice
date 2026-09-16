@@ -7,6 +7,15 @@ login_info = {
 print(login_info)
 
 
-#get practices
-result = phones.get("Username")
+#get() practices
+result = login_info.get("Username")
 print(result)
+
+#keys() practice
+print(login_info.keys())
+
+#values() practice
+print(login_info.values())
+
+#items() practice
+print(login_info.items())
