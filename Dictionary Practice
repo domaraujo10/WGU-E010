@@ -1,0 +1,7 @@
+# More practice with Dictionary{}
+login_info = {
+  "Username": "John"
+  "Password": "John12345"
+  "Pin": 123456
+}
+print(login_info)
