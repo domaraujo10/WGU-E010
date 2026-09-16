@@ -102,3 +102,9 @@ print(phones)
 #When Python executes the statement, it deletes the entire key-value pair from the dictionary.
 del phones["Samsung1"]
 print(phones)
+
+#You can remove dictionary items using pop() by giving it the key you want to remove. 
+info = {"name": "Alex", "age": 25}
+removed_value = info.pop("age")
+print(removed_value)
+print(info)
