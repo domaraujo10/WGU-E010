@@ -91,3 +91,14 @@ print(phones.items())
 #You can add or modify dictionary elements by assigning a value to a key using square brackets. If the key already exists, its value is updated. If the key does not exist, a new key-value pair is created.
 phones["Hawaii"] = "Hawaii Fold"  #adds new key
 phones["Apple"] = "Iphone Duo" #updates key
+
+
+#You can add or modify dictionary elements using the update({}) method by passing another dictionary or key- value pairs to it. 
+#If a key already exists, its value is replaced. If a key is new, it is added to the dictionary.
+phones.update({"Samsung": "Samsung Galaxy Ultra"})
+print(phones)
+
+#You can remove dictionary items using the del keyword by specifying the dictionary name followed by the key you want to remove in square brackets. 
+#When Python executes the statement, it deletes the entire key-value pair from the dictionary.
+del phones["Samsung1"]
+print(phones)
