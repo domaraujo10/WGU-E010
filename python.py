@@ -76,3 +76,18 @@ print(result)
 #keys() is a dictionary method in Python that returns a view object containing all the keys in the dictionary. 
 #This view updates automatically if the dictionary changes. It is often used when you want to loop through keys or see what information the dictionary stores.
 print(phones.keys())
+
+#keys() is a dictionary method in Python that returns a view object containing all the keys in the dictionary. 
+#This view updates automatically if the dictionary changes. It is often used when you want to loop through keys or see what information the dictionary stores.
+print(phones.keys())
+
+#values() is a dictionary method in Python that returns a view object containing all the values stored in the dictionary. 
+#This view updates automatically if the dictionary changes. It is useful when you want to examine or loop through only the values without needing the keys.
+print(phones.values())
+
+#items() is a dictionary method in Python that returns a view object containing all key-value pairs in the dictionary as tuples. Each tuple has the form (key, value).
+print(phones.items())
+
+#You can add or modify dictionary elements by assigning a value to a key using square brackets. If the key already exists, its value is updated. If the key does not exist, a new key-value pair is created.
+phones["Hawaii"] = "Hawaii Fold"  #adds new key
+phones["Apple"] = "Iphone Duo" #updates key
