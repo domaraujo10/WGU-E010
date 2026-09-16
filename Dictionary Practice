@@ -8,3 +8,5 @@ print(login_info)
 
 
 #get practices
+result = phones.get("Username")
+print(result)
