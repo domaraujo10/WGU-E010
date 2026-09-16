@@ -27,3 +27,11 @@ print(login_info)
 #Modifies Keys
 login_info["Username"] = "John.Smith"
 print(login_info)
+
+#Updates
+login_info.update[{"Password": "John.Smith12369"
+print(login_info)
+
+#del keyword
+del login_info["Pin"]
+print(login_info)
