@@ -63,3 +63,16 @@ devices.sort(reverse=True)
 print(devices
 
 
+#The get() code s a dictionary method that retrieves the value for a specified key. 
+#It works like using square brackets, but it is safer because it does not cause an error if the key is missing. Instead, it returns None or a default value you choose.
+phones = {
+  "Apple": "Iphone 8",
+  "Apple1": "Iphone 11", 
+  "Samsung": "Samsung Galaxy Flip",
+  "Samsung1": "Samsung Galaxy 8"}
+result = phones.get("Apple1")
+print(result)
+
+#keys() is a dictionary method in Python that returns a view object containing all the keys in the dictionary. 
+#This view updates automatically if the dictionary changes. It is often used when you want to loop through keys or see what information the dictionary stores.
+print(phones.keys())
