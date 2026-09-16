@@ -2,7 +2,8 @@
 login_info = {
   "Username": "John"
   "Password": "John12345"
-  "Pin": 123456
+  "Pin": 123456,
+  "Salary": 105000
 }
 print(login_info)
 
@@ -29,9 +30,13 @@ login_info["Username"] = "John.Smith"
 print(login_info)
 
 #Updates
-login_info.update[{"Password": "John.Smith12369"
+login_info.update({"Password": "John.Smith12369"})
 print(login_info)
 
 #del keyword
 del login_info["Pin"]
 print(login_info)
+
+#pop()
+removed_value = login_info.pop("Salary")
+print(removed_vale)
