@@ -19,3 +19,11 @@ print(login_info.values())
 
 #items() practice
 print(login_info.items())
+
+#add keys
+login_info["Position'] = "IT"
+print(login_info)
+
+#Modifies Keys
+login_info["Username"] = "John.Smith"
+print(login_info)
