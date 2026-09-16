@@ -46,3 +46,20 @@ print(position)  # Output: 2
 #you can extend this code by doing this
 item = fruits[position]  # Accessing the item at the found index
 print(item)  # Output: cherry
+
+
+#You can also add items to a list, but itll add it to the END of the list
+fruits.append("Dragon Fruit")
+print(fruits)
+
+#The sort() method is a list method in Python that arranges the items in a list in a specific order. By default, 
+#it sorts values in ascending order, such as alphabetically for strings or from smallest to largest for numbers. It changes the original list rather than creating a new one.
+devices = ['Iphone', 'Tablet', 'Computer', 'Printer']
+devices.sort()
+print(devices)
+
+#you can also do them reverse by adding doing sort(reverse=True)
+devices.sort(reverse=True)
+print(devices
+
+
