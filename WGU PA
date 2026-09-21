@@ -1,0 +1,98 @@
+#Complete the function add_item(numeric_list, new_number) that takes a list of numbers and a new number, and returns a new list that appends the new number to the end of the list. 
+#For example, add_item([1, 2, 3], 4) should return [1, 2, 3, 4].
+def add_item(numeric_list, new_number):
+    # TODO: Add new_number to the end of the list and return the list
+    # Example: add_item([1, 2, 3], 4) should return [1, 2, 3, 4]
+pass
+
+
+
+
+#Complete the function update_grade(grades, student, new_grade) that takes a grades dictionary, a student name, and a new grade, then updates that student's grade and returns the dictionary. 
+#For example, update_grade({"Alice": 85, "Bob": 90}, "Alice", 95) should return {"Alice": 95, "Bob": 90}.
+def update_grade(grades, student, new_grade):
+    # TODO: Update the student's grade and return the dictionary
+    # Example: update_grade({"Alice": 85, "Bob": 90}, "Alice", 95) 
+    # should return {"Alice": 95, "Bob": 90}
+pass
+
+
+#Complete the function double_number(num) that takes one number parameter and returns double that number.
+#For example, double_number(5) should return 10.
+def double_number(num):
+    # TODO: Return double the input number
+    # Example: double_number(5) should return 10
+pass
+
+
+#Modify the function greet_with_default(name) by adding a default value of "World" to the name parameter so it can be called with or without an argument.
+def greet_with_default(name):
+    # TODO: Add a default value of "World" to the name parameter
+    return "Hello " + name
+pass
+
+
+#Complete the function is_positive(number) that returns True if the number is greater than 0, and False otherwise.
+def is_positive(number):
+    # TODO: Return True if number > 0, False otherwise
+pass
+
+
+
+#Write a complete function calculate_discount(price, discount_percent) that calculates and returns the final price after applying a discount percentage.
+#For example, calculate_discount(75, 20) should return 60.0.
+def calculate_discount(price, discount_percent):
+    # TODO: Calculate and return the final price after discount
+pass
+
+
+
+#Write a complete function password_strength(password) that returns "Strong" if the password is at least 8 characters long and contains both letters and numbers, "Weak" otherwise.
+#For example, password_strength("abc123def") should return "Strong".
+def password_strength(password):
+    # TODO: Return "Strong" or "Weak" based on password criteria
+    if len(password) < 8:
+        return "Weak"
+    
+    has_letter = False
+    has_number = False
+    
+    for char in password:
+        if char.isalpha():
+            has_letter = True
+        elif char.isdigit():
+            has_number = True
+    
+    # TODO: Add your return logic here based on has_letter and has_number
+pass
+
+
+
+
+#Write a complete function convert_temperature(celsius) that converts Celsius to Fahrenheit using the formula: F = C * 9/5 + 32.
+#For example, convert_temperature(0) should return 32.0.
+def convert_temperature(celsius):
+    # TODO: Convert Celsius to Fahrenheit using F = C * 9/5 + 32
+    pass
+
+
+#Fix the indexing error in this function that should return the last character of a string.
+def get_last_character(text):
+    return text[len(text)]
+
+
+#Fix the missing return statement in this function that should return whether a number is even.
+def is_even(number):
+    if number % 2 == 0:
+        True
+    else:
+        False
+
+
+
+#Fix the logic error in this function that should return the larger of two numbers.
+def find_maximum(a, b):
+    if a < b:
+        return a
+    else:
+        return b
