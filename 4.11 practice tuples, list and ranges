@@ -1,0 +1,16 @@
+#Creates a sequence that stores the colors red, blue, green, and purple
+#Displays the sequence to the screen.
+#Creates a Boolean variable that represents a True condition.
+#Displays the Boolean value to the screen.
+
+colors = ["red", "blue", "green", "purple"]
+print(colors)
+
+is_complete = True
+is_incomplete = False
+
+print(is_complete)
+
+numbers = range (2, 12, 2)
+
+colors = ("red", "blue", "green", "brown")
