@@ -1,0 +1,14 @@
+#Write a Python program that:
+
+#Create two integer variables named a and b.
+#Assign a the value 10 and assign b the value 5.
+#Use a comparison operator to compare a and b.
+#Print the result of the comparison to the screen.
+#Update the value of a using an assignment operator so that a increases by 3.
+#Create a new variable named result.
+#Use logic operators to combine two comparisons:
+#Check whether a is greater than b
+#Check whether b is less than 10
+#Print the value of result.
+
+
